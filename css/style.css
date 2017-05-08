@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -1;
+}
+
+h2 {
+    /*font-family: 'Orbitron', sans-serif;*/
+    font-family: 'Atomic Age', cursive;
+    margin-top: 5%;
+    text-align: center;
+    width: 100%;
+    font-size: 50px;
+    color: #004ffe;
+    text-shadow: 0 0 10px #b7c3f9, 0 0 1px #b7c3f9, 0 0 40px #160abf, 0 0 70px #160abf, 0 0 80px #160abf, 0 0 100px #160abf, 0 0 150px #160abf;
+    -webkit-text-stroke-color: #b7c3f9;
+    -webkit-text-stroke-width: 0.75px;
+}
+
+.logotipo img {
+    margin-top: 15px;
+    margin-left: 15px;
+    height: 60px;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+li{
+  align-items: center;
+  margin: auto;
+  }
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.escudoi{
+  margin-left: 45px;
+}
+
+.escudor{
+  margin-left: 30px;
+}
+
+.escudoi:hover{
+  color: #004ffe;
+  text-shadow: 0 0 10px #b7c3f9, 0 0 1px #b7c3f9, 0 0 40px #160abf, 0 0 70px #160abf, 0 0 80px #160abf, 0 0 100px #160abf, 0 0 150px #160abf;
+  -webkit-text-stroke-color: #b7c3f9;
+  -webkit-text-stroke-width: 0.75px;
+}

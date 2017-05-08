@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <script type="text/javascript" src="js/sonido.js"></script>
+    <script type="text/javascript" src="js/sound-mouseover.js"></script>
+</head>
+
+<body>
+    <video src="video/Deep Space - 6.mp4" autoplay loop poster="ponerimagen.png"></video>
+
+
+    <div>
+        <figure class="logotipo">
+            <!-- logotipo -->
+            <img src="images/Star-Wars-Logo_Silver.png" alt="Star War" />
+        </figure>
+        <audio id="volumen">
+<source src="audio/star_wars_sable_laser.mp3">
+<source src="click.ogg">
+</audio>
+        <div class="contenedor">
+            <h2>Elige tu bando</h2>
+              <na>
+                <ul>
+                    <li class="bandos imperio" id="sounddiv">
+                      <bgsound id="sound">
+                        <a href=""  onmouseover="playclip();">
+                            <img src="images/imperio.png" alt="escudo imperio" class="escudoi">
+                            <p>Imperio Galácticoo</p>
+                        </a>
+                    </li>
+                    <li class="bandos rebeldes"  id="sounddiv">
+                        <a href="" onmouseover="playclip();">
+                            <img src="images/rebelion.png" alt="escudo rebelion" class="escudor">
+                            <p> Alianza Rebelde</p>
+                        </a>
+                    </li>
+                </ul>
+            </na>
+        </div>
+    </div>
+</body>
+
+</html>
